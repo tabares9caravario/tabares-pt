@@ -1,0 +1,130 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:blue;
+	    font-size:1.5em;
+		text-align:center;
+		border-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>ABOUT</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>ABOUT MYSELF</div>
+	<div class=nav><a href=index.html>MAIN</a>
+	<a href=TALENTS.html>MY TALENTS</a><a href=SKILLS.html>MY SKILLS</a></div>
+	<div class=main>Hey, My name is Von Niño R. Tabares, Currently learning on DBTC. <br>
+I am 15 years old turning 16 on January 24. And I was born in Cebu City, January 24 2008.<br>
+I live in Cebu City and my current grade right now is Grade 9, Browse on the left side to learn more (Main,Talents,Skills)</br></br></div>
+	<div class=footer><a href=README.html>Made by: Tabares, Von Niño R.</a></div>
+	
+	</div>
+</body>
+</html>	

@@ -1,0 +1,134 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:blue;
+	    font-size:1.5em;
+		text-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+	.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			 grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+		.nav {
+	    background:green;
+	    font-size:2em;
+	    text-align:center;
+            grid-column:span 1;
+			
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			 grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		
+	    }
+	.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;                               
+	grid-column:span 3;
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>TALENTS</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>MY TALENTS</div>
+	<div class=nav><a href=index.html>MAIN</a>
+	<a href=ABOUT.html>ABOUT ME</a><a href=SKILLS.html>MY SKILLS</a></div>
+	<div class=main>My talent is that, I can play football and basketball, since football is my first sport.
+	<br>I definitely have a talent for sports and listening to music everytime.</br></div>
+	<div class=footer><a href=README.html>Made by Von Niño R. Tabares</a></div>
+	
+	</div>
+</body>
+</html>	
